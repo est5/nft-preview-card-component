@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>NFT preview card component</title>
+  </head>
+  <body class="app">
+    <div class="card">
+      <img
+        class="card__img"
+        src="images/image-equilibrium.jpg"
+        alt="Equilibrium"
+      />
+      <div class="card__img--hover">
+        <img src="images/icon-view.svg" class="icon" />
+      </div>
+      <section class="card__title">
+        <h1>Equilibrium #3429</h1>
+      </section>
+      <section class="card__text">
+        Our Equilibrium collection promotes balance and calm.
+      </section>
+      <section class="card__price">
+        <span class="eth"
+          ><img src="images/icon-ethereum.svg" alt="icon-ethereum" /> 0.041
+          ETH</span
+        >
+        <span class="time-left"
+          ><img src="images/icon-clock.svg" alt="icon-clock" /> 3 days
+          left</span
+        >
+      </section>
+      <div class="line"></div>
+      <section class="card__author">
+        <img src="images/image-avatar.png" alt="avatar" class="author-img" />
+        <div>Creation of <span class="author">Jules Wyvern</span></div>
+      </section>
+    </div>
+  </body>
+</html>
