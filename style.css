@@ -92,7 +92,7 @@
 }
 
 .author:hover,
-.card__title {
+.card__title:hover {
   cursor: pointer;
   color: var(--cyan);
 }
